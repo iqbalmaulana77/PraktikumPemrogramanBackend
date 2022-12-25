@@ -4,7 +4,7 @@ import express from "express"
 const router = express.Router()
 
 router.get("/", (req, res) => {
-  res.send("Tugas Praktikum 11 Muhammad Asnur Ramdani")
+  res.send("API is on fire")
 })
 
 router.get("/students", StudentController.index)
